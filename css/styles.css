@@ -1,0 +1,236 @@
+:root {
+  --page-bg-color: #f5f5f5;
+  --primary-text-color-dark: #212121;
+  --secondary-text-color-dark: #757575;
+  --main-accent-color: #2196f3;
+  --secondary-accent-color: #188CE8;
+  --primary-text-color-light: #ffffff;
+  --primary-bg-color-dark: #2f303a;
+  --secondary-bg-color-light: #f5f4fa;
+  --logo-header-color: #000000;
+}
+
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* body */
+.page {
+  background-color: var(--page-bg-color);
+  color: var(--primary-text-color-dark);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+.visually-hidden {
+  position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* header */
+
+.page-header {
+  background-color: var(--primary-text-color-light);
+}
+
+/* logo header */
+.logo-header {
+  color: var(--logo-part-header);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.select {
+  color: var(--main-accent-color);
+}
+/* nav-menu */
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+.nav-list .nav-link {
+  color: currentColor;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-list .nav-link:hover,
+.nav-list .nav-link:focus {
+  color: var(--main-accent-color);
+}
+
+.list .mail,
+.list .tel {
+  color: var(--secondary-text-color-dark);
+  font-family: inherit;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.list .mail:hover,
+.list .mail:focus,
+.list .tel:hover,
+.list .tel:focus {
+  color: var(--main-accent-color);
+}
+.list .current {
+  color: var(--main-accent-color);
+}
+
+/* hero section */
+.hero {
+  background-color: var(--primary-bg-color-dark);
+}
+.hero-title {
+  color: var(--primary-text-color-light);
+  font-size: 44px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.favor-btn {
+  background-color: var(--main-accent-color);
+  color: var(--primary-text-color-light);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.favor-btn:hover,
+.favor-btn:focus {
+  background-color: var(--secondary-accent-color);
+  color: var(--primary-text-color-light);
+}
+
+/* section advantage */
+
+.advantage-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text {
+  color: var(--secondary-text-color-dark);
+}
+
+/* our work section */
+
+.work-title,
+.team-title {
+  color: var(--primary-text-color-dark);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+/*   our team */
+.team {
+  background-color: var(--secondary-bg-color-light);
+}
+
+.secondary-title {
+  color: var(--primary-text-color-dark);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.point {
+  color: var(--secondary-text-color-dark);
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* footer */
+.page-footer {
+  background-color: var(--primary-bg-color-dark);
+}
+.logo-footer {
+  color: var(--primary-text-color-light);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.4;
+}
+.address,
+.contact {
+  font-family: inherit;
+  font-style: normal;
+}
+.address {
+  color: var(--primary-text-color-light);
+}
+.contact {
+  color: var(--secondary-text-color-dark);
+}
+.address:hover,
+.address:focus,
+.contact:hover,
+.contact:focus {
+  color: var(--main-accent-color);
+}
+
+/* portfolio */
+
+.button {
+  color: var(--primary-text-color-dark);
+  background-color: var(--secondary-bg-color-light);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+.main-btn {
+  color: var(--primary-text-color-light);
+  background-color: var(--main-accent-color);
+}
+.button:hover,
+.button:focus {
+  color: var(--primary-text-color-light);
+  background-color: var(--main-accent-color);
+}
+
+.list-item {
+  background-color: var(--primary-text-color-light);
+}
+
+.portfolio-title {
+  color: var(--primary-text-color-dark);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.desk {
+  color: var(--secondary-text-color-dark)
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: left;
+}
